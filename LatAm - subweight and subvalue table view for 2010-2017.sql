@@ -1,3 +1,5 @@
+/* Here I am taking the data from the [LatAm Data Tables] and creating a new table that is the sum for each current year, by unique C2C trade lane, HS6 lane, GCKM, and creating a new column in the new table for each of the years 2010 - 2017 for 'subweight' and 'subvalue' */
+
 USE [LatAm Data Tables]
 GO
 
