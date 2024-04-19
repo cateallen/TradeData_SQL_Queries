@@ -1,3 +1,6 @@
+/* SQL Script Summary: In this SQL Query I am processing trade data related to exports from Argentina, and categorizing it based on different modes of transport and creating summary tables in SQL Server Management Studio for further analysis. */
+
+
 INSERT INTO Datamyne.dbo.LatAmEXIM
            ([D_Cty]
            ,[O_Cty]
