@@ -1,3 +1,11 @@
+/* Here I am alterying the table [DOC_C2P_2010_2018_VW] 
+1. to add the new columns, [O_Cty], [D_Cty], [O_Port], and [D_Port]. 
+2. I am populating the [Direction] column with the value "Import",populating the [D_Cty] column with the value "US", and populating the [D_Reg] column with the value "NA". 
+3. I am selecting data from the table [DOC_C2P_2010_2018_VW] along with additional data from a lookup table in the database [Country Code Lookup] to map country codes to theri corresponding country names and regions. 
+4. I am applying outerapply to join the [Country Code Lookup] table twice, once for origin country and once for destination country, to map country does to country names and regions. 
+5. I am selecting the necessary columns from both the original table and the joined [Country Code Lookup] table and inserting them into a new table that I am calling [DOC_C2P_2010_2018_VW_Cty_Mapped] */
+
+
 USE [Tradecube 3.0 Processed Files]
 GO
 
